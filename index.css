@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team_arrangement {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;  
+}
+
+.team_name {
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    /* angle: 0 deg; */
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.team_name h3 {
+    
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    /* leading-trim: NONE; */
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.team_score_display {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    /* angle: 0 deg; */
+    opacity: 1;
+    border-radius: 5px;
+
+}
+
+.team_score_display h3 {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    /* leading-trim: NONE; */
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+
+}
+
+.score_buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timer_watch {
+    display: flex;
+    gap: 20px;
+}
+
+.timer_label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.timer_display {
+    color: #F94F6D;
+}
+
+.timer_knobs {
+    display: flex;
+    gap: 3px
+}
+
+.gamestats {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.leaderboard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EEEEEE
+}
+
+.leaderboard_display {
+    background-color: #080001;
+    width: 100px;
+}
+
+.leaderboard_display h4 {
+    font-family: Cursed Timer ULiL;
+    /* background-color: #080001; */
+    color: #F94F6D;
+    text-align: center;
+}
+
+.foulstats {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.foul_display {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE
+}
+
+.foul_homeside {
+    display: flex;
+    flex-direction: column;
+}
+
+.foul_homeside h4 {
+    color: #F94F6D;
+}
+
+.foul_guestside {
+    display: flex;
+    flex-direction: column;
+}
+
+.foul_guestside h4 {
+    color: #F94F6D;
+}
