@@ -13,7 +13,7 @@ function update_leaderboard() {
   if (homescore > guestscore) {
     leaderboard_obj.innerText = "Home"
   } else if (homescore < guestscore) {
-    leaderboard_obj.innerText = "Guest"
+    leaderboard_obj.innerText = "Away"
   } else {
     leaderboard_obj.innerText = "None"
   }
