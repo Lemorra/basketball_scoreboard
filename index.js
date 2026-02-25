@@ -30,11 +30,11 @@ function add_point(element_id, point) {
 function sub_point(element_id, point) {
   let teamscore_obj = document.getElementById(element_id)
   let teamscore = Number(teamscore_obj.innerText)
-  if (teamscore > 0){
-    teamscore -= point 
+  if (teamscore > 0) {
+    teamscore -= point
   }
   teamscore_obj.innerText = teamscore
-  update_leaderboard() 
+  update_leaderboard()
 }
 
 function scoreboard_reset() {
@@ -42,7 +42,7 @@ function scoreboard_reset() {
   let guestscore_obj = document.getElementById("guestside-score")
   let homesfoul_obj = document.getElementById("foul_homeside_count")
   let guestfoul_obj = document.getElementById("foul_guestside_count")
-  
+
   homescore_obj.innerText = 0
   guestscore_obj.innerText = 0
   homesfoul_obj.innerText = 0
